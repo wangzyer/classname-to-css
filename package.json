@@ -1,0 +1,15 @@
+{
+  "name": "classname2css",
+  "version": "1.0.0",
+  "description": "className auto transfer css webpack plugin",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {},
+  "author": "wangzyer",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.1"
+  }
+}
