@@ -35,4 +35,33 @@
 | htmlFontSize  | number | 75 | unit为rem时有效，html fontsize的大小 |
 | output  | string | 'webpack的output目录下的/css/classname2css.{hash}.css' | 转化后webpack的output目录下输出路径 |
 
+## 转化规则
+
+命名规则：前缀o-原子化名字数字
+
+例：o-mt30 -> margin-top: 30px
+
+目前支持的转化样式：
+
+| 转化前 | 转化后 |
+| --- | --- |
+|  mt | margin-top |
+| mt|margin-top|
+| mb| margin-bottom|
+| ml| margin-left|
+| mr| margin-right|
+| m| margin|
+| pt| padding-top|
+| pb| padding-bottom|
+| pl| padding-left|
+| pr| padding-right|
+| p| padding|
+| fs| font-size|
+| w| width|
+| h| height|
+| lh| line-height|
+| br| border-radius|
+
+
+
 
